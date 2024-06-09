@@ -1,0 +1,34 @@
+.categories {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.btn {
+    width:  150px;
+    height: 40px;
+    padding: 10px;
+    margin: 5px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: unset;
+    border-radius: 3px;
+    background-color: #f3f3f3;
+    flex-grow: 1;
+}
+.btn img {
+    width: 25px;
+    height: auto;
+    margin-right: 5px;
+}
+.btn span {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/*btn when is  on hover or selected*/
+.btn:hover , .selectedBtn {
+    background-color: #daa520;
+}
